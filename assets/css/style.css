@@ -1,0 +1,1228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 100px;
+}
+
+/* Header */
+
+header{
+    background-color: #01005A;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+
+.cabecalho{
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+}
+
+#burger{
+    font-size: 48px;
+    position: relative;
+    right: 283px;
+    bottom: -168px;
+}
+
+#burger:hover{
+    cursor: pointer;
+}
+
+li{
+    background-color: #01005A;
+    padding: 5px;
+}
+
+#itens{
+    display: none;
+    margin: auto;
+    list-style: none;
+    position: absolute;
+    top: 232px;
+    left: -284px;
+}
+
+.material-icons{
+    font-size: 36px;
+    color: white;
+    display: flex;
+    width: 50px;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    align-items: flex-start;
+    font-size: 48px;
+}
+
+.logo{
+    background-color: transparent;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    right: 250px;
+}
+
+.logo img{
+    position: relative;
+    width: 200px;
+    bottom: -46px;
+    left: 174px;
+}
+
+.buttons{
+    display: flex;
+    position: relative;
+    bottom: 139px;
+    right: -318px;
+    height: 40%;
+    margin: 0px 60px;
+    padding: 50px 0px;
+    align-items: center;
+    align-content: center;
+    top: 50%;
+}
+
+.primary{
+    display: flex;
+    color: white;
+    background-color: #01005A;
+    padding: 20px 10px;
+    margin: 5px 40px 5px 60px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    left: -122px;
+}
+
+.primary:hover{
+    background-color: #4070E9;
+}
+
+.secondary{
+    display: flex;
+    color: white;
+    background-color: #01005A;
+    padding: 20px 10px;
+    margin: 5px 40px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    left: -66px;
+}
+
+.secondary:hover{
+    background-color: #4070E9;
+}
+
+/* Fim do Header */
+
+#table-line{
+    border-bottom: solid 1px;
+}
+
+.itens-table{
+    display:flex;
+    position: relative;
+    gap:3px;
+}
+
+.table-collumn-first{
+    margin: 1000px;
+}
+
+.itens-footer{
+    display:flex;
+}
+
+/*.logo img{
+    position:relative;
+}*/
+
+
+/* arthur */
+
+#pagLogin{
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 501px;
+}
+
+#pagLogin p{
+    margin-top: 0px;
+    color: #01005A;
+    padding-bottom: 20px;
+    margin-left: -46px;
+    margin-top: -19px;
+
+}
+
+#Esqueci{
+    margin-top: -32px;
+    color: #01005A;
+    padding-top: 35px;
+    margin-left: 10px 
+
+}
+
+#pagLogin h1{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 125.02%;    
+    color: #000000;
+    margin-bottom: 45px;
+    margin-left: 23px;
+}
+
+#login_email{
+box-sizing: border-box;
+width: 500px;
+height: 70px;
+left: 120px;
+top: 500px;
+border: 5px solid #6C6464;
+border-radius: 20px;
+margin:20px 20px 20px 1px;
+padding: 20px 20px 15px 20px;
+}
+
+
+#login_senha{
+
+
+box-sizing: border-box;
+width: 500px;
+height: 70px;
+left: 70px;
+top: 500px;
+border: 5px solid #6C6464;
+border-radius: 20px;
+padding: 20px 20px 15px 20px;
+
+}
+
+#entrar{
+cursor: pointer;
+width: 180px;
+height: 75px;
+margin-left: 150px;
+left: 727px;
+top: 1514px;
+background: #01005A;
+border-radius: 10px;
+margin-top: 50px;
+font-size: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#entrar :hover button{
+background-color: blue;
+}
+
+#entrar h2{
+color:white;
+padding: 0;
+}
+
+#semConta{
+
+margin-left: 161px;
+margin-top: 8px;
+}
+
+
+#loginVoltar{
+width: 180px;
+height: 75px;
+left: 22px;
+top: 1892px;
+background: #01005A;
+border-radius: 8px;
+margin-top: 80px;
+margin-right: 90px;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+#loginVoltar{
+
+    padding-right: 2%;
+}
+
+#loginVoltar h2{
+color:white;
+padding: 0;
+}
+
+#ocultar{
+ height: 60px; 
+ cursor: pointer;
+ padding: 5%;
+ margin-top: -112px;
+ margin-left: 383px;
+}
+
+#pacotes{
+    display: flex;
+    width: 1129px;
+    height: 180px;
+    position: relative;
+    left: 10%;
+    top: -24px;
+    margin-left: 50px;
+    background: #01005A;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#pacotes button{
+
+}
+    
+    #local{
+    margin-top: 47px;
+    margin-left: 50px;
+    }
+    
+    #local button{
+       border:none;
+        width: 200px;
+    height: 60px;
+    left: 108px;
+    top: 1728px;
+    color: white;
+    background: #50A6F3;
+    border-radius: 10px;
+    
+    
+    }
+    
+    #local h4{
+        color:white;
+        font-size: 20px; 
+    }
+    
+    #local h5{
+        font-size: 20px;
+    }
+    
+    #destino{
+        margin-top: 44px;
+        margin-left:100px;
+        border-radius: 10px;
+    }
+    
+    #destino button{
+        border: none;
+        width: 180px;
+        height: 60px;
+        left: 108px;
+        top: 1728px;
+        color: white;
+        background: #50A6F3;
+        border-radius: 10px;
+    }
+    
+    #destino h4{
+      font-size: 20px;
+     color: white;
+     margin-top: 3px;
+    }
+    
+    #periodo{
+       color: white;
+        margin-top: 38px;
+        margin-left: 84px;
+    }
+    
+    #periodo h4{
+        color: white;
+        position: relative;
+        left: 37px;
+        top: 14px;
+        font-size: 20px;
+    }
+    
+    #periodo button{
+        width:104px ;
+        
+    }
+    
+    #ida{
+        border: none;
+        width: 150px;
+        height: 60px;
+        left: 108px;
+        top: 1725px;
+        color: white;
+        background: #50A6F3;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+       opacity: 1;
+    }
+    #ida h2{
+        display: flex;
+    }
+    
+    #ida button{
+    
+        opacity: 1;
+    }
+    #ida button :hover{
+        opacity: 0.1;
+    }
+    
+    #ida img{
+    
+    height: 20px;
+    
+    }
+    
+    #volta{
+        border: none;
+        width: 150px;
+        height: 60px;
+        left: 108px;
+        top: 1728px;
+        color: white;
+        background: #50A6F3;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+    
+    #volta img{
+        height: 20px;
+    }
+    
+    #catalogo{
+        display: flex;
+    }
+    
+    
+    
+    #buscar button{
+        height: 30px;
+        border: none;
+        width: 137px;
+        height: 60px;
+        left: 108px;
+        top: 1728px;
+        color: white;
+    color:white;
+    background: #0000C3;
+    border-radius: 10px;
+    margin-top: 83px;
+    margin-left: 84px;
+    font-size: 23px;
+    }
+    
+    #buscar img{
+        height: 32px;
+    }
+    
+    
+
+#login{
+    width: 60%;
+    position: relative;
+    height: 524px;
+    left: 0%;
+    top: 200px;
+    background: url(../img/fotoLogin.avif);
+    border-radius: 35px;
+    background-size: 995px;
+    background-position: 1px;
+    margin-left: 21%;
+    margin-bottom: 50px;
+}
+
+#login h2{
+
+padding-top: 144px;
+margin-left: 65px;
+
+}
+
+
+
+#email{
+    border: none;
+    width: 409px;
+    height: 55px;
+    left: 196px;
+    top: 4412px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-left: 80px;
+    font-size: 28px;
+    padding-left: 20px 
+}
+
+#senha{
+width: 409px;
+height: 55px;
+left: 196px;
+top: 4626px;
+margin-top: 50px;
+background: #FFFFFF;
+border-radius: 8px;
+border: none;
+padding-top: 2%;
+padding-bottom: 2%;
+margin-left: 80px;
+font-size: 28px;
+    padding-left: 20px 
+}
+
+#RealizarLogin{
+    width: 213px;
+    height: 55px;
+    left: 1167px;
+    top: 4412px;
+    background: #50A6F3;
+    border-radius: 18px;
+    margin-left: 100px;
+}
+
+#cadastrarSe{
+    width: 213px;
+    height: 55px;
+    left: 1167px;
+    top: 4412px;
+    background: #50A6F3;
+    border-radius: 18px;
+   margin-left: 100px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+/* gabriel */
+
+.login{
+    background-color: #0909E5;
+    color: white;
+    display: flex;
+    padding: 10px 15px;
+    margin: 5px 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    align-items: center;
+}
+
+i{
+    font-size: 48px;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#pessoa{
+    padding: 6px 0;
+}
+
+p{
+    font-size: medium;
+    padding: 20px 30px;
+}
+
+h2{
+    padding: 50px 0 0 20px;
+    align-content: center;
+}
+
+.suporte{
+    display: flex;
+    color: white;
+    background-color: #01005A;
+    padding: 20px 15px;
+    margin: 5px 40px 5px 60px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.painel{
+    background-color: #01005A;
+    margin: 30px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    flex-direction: column;
+}
+
+.painel img{
+    width: 70%;
+    background-size: 0;
+}
+
+#seta{
+    margin: 0;
+    background-color: white;
+    color: #01005A;
+    border-radius: 30px;
+
+}
+
+.download{
+    display: flex;
+    align-items: center;
+}
+
+.voltar{
+    background-color: #01005A;
+    margin: 30px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#volta{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* santos */
+
+#quemsomos {
+    position: relative;
+    top: -40px;
+    left: 160px;
+    font-size: 50px;
+}
+
+.text {
+    margin-left: 60px;
+    font-size: 25px;
+    text-align: justify;
+    
+}
+
+.conteudo {
+    display: flex;
+
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 15%;
+    
+}
+
+
+#right {
+    margin-left: 10px;
+}
+
+.imgs {
+    width: 300px;
+    height: 300px;
+    margin:10px;    
+    position: relative;
+    margin-right: 5rem;
+
+}
+
+#img-right {
+    position: relative;
+    
+}
+
+#text-final {
+    margin-left: 56px;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+/* Final da Parte do santos*/
+
+
+footer {
+    background-color: #01005A;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 110%;
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    top: 30px;
+}
+
+#logo {
+    width: 450px;
+    margin-left: 50px;
+}
+
+#text_copy {
+    margin-left: 150px;
+    top: auto;
+}
+.logo-rodape{
+    width: 100%;
+}
+.right-itens {
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 80px;
+    text-decoration: none;
+}
+
+.right-itens p {
+    margin: 0;    
+}
+
+.first-line{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.social-icons {
+    width: 100%;
+    display:flex;
+    background-color: transparent;
+}
+
+.social-icons img {
+    width: 10px;
+    height: 200px;
+    margin: 10px;
+
+}
+.colunm-1{
+    display:flex;
+}
+.texts{
+    margin:0;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+
+#twitter {
+    width: 125px;
+    height: 125px;
+}
+
+#linkedin{
+    width: 122px;
+    height:122px;
+}
+
+#instagram{
+    width: 130px;
+    height: 130px;
+}
+
+#facebook{
+    width: 125px;
+    height: 125px;
+}
+
+#botao {
+    background-color: #01005A;
+    font-size: 25px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+#quemsomos {
+    margin-left: 50px;
+}
+
+.text {
+    margin-left: 80px;  
+}
+
+
+
+#right {
+    margin-left: -50px;
+}
+
+.login{
+    background-color: #0909E5;
+    color: white;
+    display: flex;
+    padding: 10px 15px;
+    margin: 5px 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+}
+
+.login button{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.login p {
+    position: relative;
+    font-size: 20px;
+    top: 9px;
+}
+
+.login i{
+    font-size: 30px;
+    position: relative;
+    bottom:4px;
+    left: 10px;    
+
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#pessoa{
+    padding: 6px 0;
+}
+
+#logo {
+    width: 450px;
+    margin-left: 50px;
+}
+
+#text_copy {
+    margin-left: 150px;
+    top: auto;
+}
+
+.right {
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+
+.right p {
+    margin: 0;
+    
+}
+
+.right h2 {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    width: 100%;
+    display: grid;
+}
+
+.social-icons img {
+    width: 150px;
+    height: 150px;
+}
+
+#faceb {
+    width: -1000px;
+}
+
+#linked {
+    width: 29%;
+    height: 29%;
+}
+
+
+
+
+/* carrossel */
+
+
+.container {
+    position: relative;
+    padding: 15px;
+    left: 20px;
+    top: -52px;
+  }
+  
+  .gallery-wrapper {
+    overflow-x: auto;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 100px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border-radius: 20px;
+
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+  
+  .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  
+  .item {
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.2;
+    font-display: none;
+  }
+  
+  .current-item {
+    opacity: 1;
+    font-display:flex;
+    background-color: #50A6F3;
+  }
+
+
+
+  
+  /* This is from w3schools */
+  /* 
+  https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .gallery-wrapper {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .cyan {
+    background: cyan;
+  }
+  
+  .deeppink {
+    background: deeppink;
+  }
+  
+  .turquoise {
+    background: turquoise;
+  }
+  
+  .darkblue {
+    background: darkblue;
+  }
+  
+  .purple {
+    background: purple;
+  }
+  
+  #Catalogo{
+    font-size: 50px;
+  }
+
+  /* sobre nos */
+
+.sobre-nos-card{
+    width: 60%;
+    background-color: #01005A;
+    border-radius: 25px;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    top: 120px;
+    margin-left: 21%;
+    padding: 5%;
+    margin-bottom: 10px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.sobre-nos-card p{
+    font-size: 20px;
+    text-align: justify;
+
+}
+.sobre-nos-card img{
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+}
+.sobre-nos-card button{
+    background-color: #4070E9;
+    font-size: 30px;
+    width: 80%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+#nos{
+    font-size: 40px;
+    height: bold;
+}
+
+#mais_opcoes{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    gap: 59px;
+}
+
+.cards-legais{
+    width: 100%;
+    margin-left: 15%;    
+    gap: 25px;
+
+}
+
+.card-title h3 {
+    font-size: 26px;
+}
+
+#card1{
+    background-image: url(../img/card_1.jpg);
+    width: 357px;
+    height: 597px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0px ;
+}
+
+#card1 h3{
+    background-color: #f9aab6;
+    width: 50%;
+    height: 10%;
+    margin-left: 80px;
+    position: relative;
+    left: 5%;
+    top: 20px;
+    padding: 3%;
+    text-align: center;
+    /* font-size: 20px; */
+    border-radius: 10px;
+    border-color:#000000;
+
+}
+
+#card1 p{
+    font-size: 40px;
+    margin-top: 332px;
+    margin-left: 30px;
+    
+}
+
+#card1 b {
+    font-size: 20px;
+}
+
+#card2{
+    background-image: url(../img/card_2.jpg);
+    width: 357px;
+    height: 597px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 40px;
+}
+
+#card2 h3{
+    background-color: #4070E9;
+    color: #fff;
+    width: 50%;
+    height: 10%;
+    margin-left: 80px;
+    position:relative;
+    left: 5%;
+    top:20px;
+    padding: 3%;
+    text-align: center;
+    font-size:30px;
+    border-radius: 10px;
+    border-color:#000000;
+}
+
+#card2 p{
+    font-size: 20px;
+    margin-top: 332px;
+    margin-left: 27px;
+}
+
+#card3{
+    background-image: url(../img/card_3.jpg);
+    width: 357px;
+    height: 597px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 80px;   
+}
+
+#card3 h3{
+    background-color:#50A6F3;
+    width: 50%;
+    height: 10%;
+    color:#FFFFFF;
+    margin-left: 80px;
+    position:relative;
+    left: 5%;
+    top:20px;
+    padding: 3%;
+    text-align: center;
+    font-size:30px;
+    border-radius: 10px;
+    border-color:#000000;
+
+}
+
+#card3 p{
+    font-size: 20px;
+    margin-top: 332px;
+    margin-left: 27px;
+}
+
+.titulos p{
+    font-size: 50px;
+    position: relative;
+    bottom: 5%;
+    left: 10%;
+    top: -13px; 
+}
+
+#imagem_principal{
+    position: relative;
+    left: 10%;
+    top: 10%;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#imagem_principal img{
+    width: 1000px;
+    height: 800px;
+    border-radius: 25px;
+    position: relative;
+    right: -116px;
+    top: -35px;
+}
+
+.logo-daqui button:hover{
+    background-color: #f9aab6;
+    transition:1s;
+
+}
